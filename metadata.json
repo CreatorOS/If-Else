@@ -2,12 +2,25 @@
   "version": "1.0.0",
   "defaultFile": "contracts/IfElse.sol",
   "environment": "solidity",
-  "setupCommands": ["npm i", "npx hardhat compile"],
+  "setupCommands": [
+    "npx hardhat compile"
+  ],
   "compileCommand": "npx hardhat compile",
   "tests": [
-    { "itShould": "Compile", "command": "sh learn_tests/18.sh" },
-    { "itShould": "Call foo", "command": "sh learn_tests/19.sh" },
-    { "itShould": "Call ternary", "command": "sh learn_tests/20.sh" }
+    {
+      "itShould": "Compile",
+      "command": "sh learn_tests/18.sh"
+    },
+    {
+      "itShould": "Call foo",
+      "command": "sh learn_tests/19.sh"
+    },
+    {
+      "itShould": "Call ternary",
+      "command": "sh learn_tests/20.sh"
+    }
   ],
-  "learnerAccessibleFileList": ["contracts/*"]
+  "learnerAccessibleFileList": [
+    "contracts/*"
+  ]
 }
