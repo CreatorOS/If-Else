@@ -21,7 +21,7 @@ Note the use of `else if` keyword to handle multiple conditions.
     }
 ```
 
-Hit `Run` to check the result.
+Try to call ```foo``` and test the three cases.
 
 ## Ternary operator
 
@@ -41,4 +41,4 @@ Let's write a simple ternary operator to return 1 if the value is less than 10 o
     }
 ```
 
-Hit `Run` to check the result.
+Try this as well.
